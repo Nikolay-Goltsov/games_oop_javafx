@@ -83,14 +83,7 @@ public class Logic {
                 for (int j = 0; j < table.length; j++) {
                     if (table[i][j] == 1) {
                         countLine++;
-
                     }
-                    if (countLine == table.length) {
-                        result = true;
-                        break;
-                    }
-                }
-                for (int j = 0; j < table.length; j++) {
                     if (table[j][i] == 1) {
                         countColumn++;
 
